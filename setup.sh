@@ -1,3 +1,6 @@
+ if [ -d ~/.vim ]; then 
+  mv ~/.vim ~/.vim.bak
+ fi
  ln -s ~/vimfiles ~/.vim
  ln -s ~/.vim/vimrc ~/.vimrc
  ln -s ~/.vim/gvimrc ~/.gvimrc
