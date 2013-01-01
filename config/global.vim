@@ -1,4 +1,7 @@
-colorscheme molokai
+syntax enable
+set background=dark
+colorscheme solarized
+
 set hlsearch
 
 set tabstop=2
