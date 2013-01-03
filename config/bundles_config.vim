@@ -5,6 +5,9 @@ let g:CommandTMaxHeight=20
 " Auto remove fudgitive buffers
 autocmd BufReadPost fugitive://* set bufhidden=delete
 
+" fix for https://github.com/scrooloose/nerdtree/issues/108
+let g:NERDTreeDirArrows=0
+
 " Rails config
 autocmd User Rails set wildignore+=public/assets/**,vendor/**,log/**,tmp/**
 autocmd User Rails map <silent> <Leader>w m`:%s/\s\+$//<CR>``
