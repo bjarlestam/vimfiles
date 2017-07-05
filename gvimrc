@@ -1,4 +1,3 @@
-au VimEnter * set fullscreen
 
 source ~/.vim/config/ui.vim
 
